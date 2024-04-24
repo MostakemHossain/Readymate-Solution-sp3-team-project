@@ -3,4 +3,32 @@
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: none;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+#progress {
+
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 35px;
+  color: #001a2e;
 }
