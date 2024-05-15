@@ -5,6 +5,9 @@
   scrollbar-width: none;
   font-family: "Poppins", sans-serif;
 }
+.nav {
+  z-index: 99999;
+}
 html {
   scroll-behavior: smooth;
 }

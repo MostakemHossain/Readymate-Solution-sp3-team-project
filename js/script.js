@@ -71,5 +71,5 @@ function moveSlider(direction) {
         } else {
             slider.classList.remove('prev')
         }
-    }, {once: true}) // Remove the event listener after it's triggered once
+    }, {once: true}) 
 }
